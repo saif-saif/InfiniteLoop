@@ -1,9 +1,9 @@
 x = 1
-while x < 100:
+while x < 5000:
  a = int(x/1) % 10 
  b = int(x/10) % 10
  c = int(x/100) % 10
- z = a**2 + b**2 + c**2
- print(x,z)
+ z = a**3 + b**3 + c**3
+ if (x == z):
+    print(x,z)
  x += 1
- continue
